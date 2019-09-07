@@ -1,0 +1,2 @@
+class Uglydog < ApplicationRecord
+end
