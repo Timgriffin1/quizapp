@@ -1,0 +1,2 @@
+module UglydogsHelper
+end
