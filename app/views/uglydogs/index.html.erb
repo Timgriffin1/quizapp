@@ -1,4 +1,10 @@
 <h1>Welcome to the Ugly Dog App</h1>
 <br>
 <h2> Where Ugly Dogs are Recognized For Their Innate Beauty</h2>
-<h3> <%= @uglydogs.inspect %></h3>
+
+<% @uglydogs.each do |uglydog| %>
+ <div class="booyah-box col-10 offset-1">
+    <h1><%= uglydog.name %></h1><br />
+    <p><%= uglydog.description %></p><br />
+  </div>
+<% end %>
